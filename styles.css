@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-container {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.list-item {
+  padding: 5px;
+  justify-content: center;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    flex-direction: row;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .list-item {
+    padding: 20px;
+  }
+}
