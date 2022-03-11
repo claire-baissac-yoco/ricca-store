@@ -107,6 +107,12 @@ html, body {
   padding: 20px;
 }
 
+.chair-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .chair-container {
   display: flex;
   flex-direction: column;
@@ -125,6 +131,29 @@ html, body {
 .old-price {
   text-decoration: line-through;
   color: #8C8C8C;
+}
+
+.new-info {
+  font-size: 32px;
+  display: flex;
+}
+
+.new-price {
+  flex-grow: 1;
+}
+
+.chair-description {
+  display: none;
+}
+
+.load-more-button {
+  background-color: var(--primary);
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 992px) {
@@ -147,5 +176,9 @@ html, body {
 
   .footer-list {
     align-items: unset;
+  }
+
+  .chair-description {
+    display: flex;
   }
 }
