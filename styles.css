@@ -55,6 +55,7 @@ html, body {
   padding: 20px;
   border: 8px solid white;
   display: inline-block;
+  /* width: 388px; */
 }
 
 .banner-sign-container {
@@ -67,12 +68,26 @@ html, body {
   align-items: center;
 }
 
+.banner-heading {
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.banner-info {
+  padding-bottom: 31px;
+  font-weight: 500;
+  font-size: 45px;
+}
+
 .deals-button {
   border: 2px solid var(--primary);
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 500;
+  font-size: 22px;
+  width: 374px;
 }
 
 .deals-button a {
@@ -114,6 +129,8 @@ html, body {
 
 .chair-name {
   display: flex;
+  font-weight: 400;
+  font-size: 38px;
 }
 
 .card-container {
@@ -140,20 +157,29 @@ html, body {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  font-weight: 300;
+  font-size: 22px;
 }
 
 .old-price {
   text-decoration: line-through;
   color: #8C8C8C;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  padding: 10px;
 }
 
 .new-info {
   font-size: 32px;
   display: flex;
+  padding: 10px;
 }
 
 .new-price {
   flex-grow: 1;
+  font-weight: 300;
+  font-size: 32px;
 }
 
 .chair-description {
@@ -170,6 +196,14 @@ html, body {
   align-items: center;
 }
 
+.heart-icon {
+  padding: 5px;
+}
+
+.trolley-icon {
+  padding: 5px;
+}
+
 @media only screen and (min-width: 992px) {
   .header {
     flex-direction: row;
@@ -184,6 +218,15 @@ html, body {
     padding: 20px;
   }
 
+  .banner-border {
+    width: 560px;
+  }
+
+  .banner-info {
+    font-weight: 400;
+    font-size: 50px;
+  }
+
   .footer-info {
     flex-direction: row;
   }
@@ -195,6 +238,7 @@ html, body {
   .chair-description {
     display: flex;
     flex-grow: 1;
+    padding: 10px;
   }
 
   .card-container {
