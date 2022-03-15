@@ -103,8 +103,8 @@ html, body {
 .footer-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  /* align-items: center; */
 }
 
 .footer-list {
@@ -114,6 +114,10 @@ html, body {
   flex-direction: column;
   align-items: center;
   padding: 10px;
+}
+
+.footer-list li {
+  padding-left: 0;
 }
 
 .center {
@@ -186,7 +190,7 @@ html, body {
   display: none;
 }
 
-.load-more-button {
+.load-more-button-container {
   background-color: var(--primary);
   padding: 20px;
   margin: 20px;
@@ -209,6 +213,14 @@ html, body {
   cursor: pointer;
   outline: none;
   border: none;
+}
+
+.load-more-button {
+  background: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
 }
 
 @media only screen and (min-width: 992px) {
@@ -236,10 +248,21 @@ html, body {
 
   .footer-info {
     flex-direction: row;
+    justify-content: space-between;
+
   }
 
   .footer-list {
-    align-items: unset;
+    /* align-items: stretch; */
+    /* display: inline-block; */
+    justify-content: space-between;
+
+  }
+
+  .footer-list li {
+    padding-left: 0;
+    display: block;
+    width: 100%;
   }
 
   .chair-description {
