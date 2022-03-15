@@ -142,6 +142,14 @@ html, body {
 .card-container {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  /* max-height: 327px; */
+}
+
+.card-container-reverse {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   /* max-height: 327px; */
 }
 
@@ -195,7 +203,7 @@ html, body {
 .load-more-button-container {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 .heart-icon {
@@ -274,6 +282,7 @@ html, body {
   .card-container {
     flex-direction: row;
     max-height: 327px;
+    padding: 50px;
   }
 
   img {
@@ -287,5 +296,7 @@ html, body {
   .card-container-reverse {
     display: flex;
     flex-direction: row-reverse;
+    padding: 50px;
+
   }
 }
