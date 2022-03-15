@@ -193,13 +193,9 @@ html, body {
 }
 
 .load-more-button-container {
-  background-color: var(--primary);
-  padding: 20px;
-  margin: 20px;
-  color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 20px;
 }
 
 .heart-icon {
@@ -218,11 +214,13 @@ html, body {
 }
 
 .load-more-button {
-  background: none;
+  background-color: var(--primary);
+  padding: 20px;
   cursor: pointer;
   outline: none;
   border: none;
   color: white;
+  width: 374px;
 }
 
 @media only screen and (min-width: 992px) {
