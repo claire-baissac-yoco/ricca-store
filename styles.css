@@ -122,6 +122,11 @@ html, body {
   padding-left: 0;
 }
 
+.footer-heading {
+  display: flex;
+  justify-content: center;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -257,7 +262,11 @@ html, body {
   .footer-info {
     flex-direction: row;
     justify-content: space-between;
+    padding: 60px;
+  }
 
+  .footer-heading {
+    justify-content: left;
   }
 
   .footer-list {
